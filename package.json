@@ -1,0 +1,31 @@
+{
+  "name": "instant",
+  "version": "0.0.1",
+  "description": "Instant: a Web application framework",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/greatcodeclub/instant.git"
+  },
+  "keywords": [
+    "framework",
+    "web"
+  ],
+  "author": "Marc-Andre Cournoyer",
+  "bugs": {
+    "url": "https://github.com/greatcodeclub/instant/issues"
+  },
+  "dependencies": {
+    "underscore": "1.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x",
+    "consolidate": "0.x",
+    "jade": "1.x",
+    "morgan": "*",
+    "serve-static": "*",
+    "nodemon": "1.x"
+  }
+}
